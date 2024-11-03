@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="-125dp">
+
+    <ImageView
+        android:id="@+id/shoeImage"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/fon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/kcrug"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="572dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/kcrug"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="572dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/kcrug"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="572dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/kcrug"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="572dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/kcrugg"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="572dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/kcrug"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="572dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/shoeImage5"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/fon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/shoeImage3"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/fon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeeze"
+        android:text="My Cart"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/nike_air_max"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="479dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/nike_jordan"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="479dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/nike_jordan"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="479dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="374dp"
+        android:layout_height="51dp"
+        android:text="Air Jordan is an American brand of basketball shoes athletic, casual, and style clothing produced by Nike...."
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="383dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="145dp"
+        android:layout_height="22dp"
+        android:text="Nike Air Jordan"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="332dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EU"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="542dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="584dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="43"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="360dp"
+        tools:layout_editor_absoluteY="584dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="42"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="584dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="41"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="584dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="39"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="584dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="38"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="584dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="US"
+        tools:layout_editor_absoluteX="377dp"
+        tools:layout_editor_absoluteY="542dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UK"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="542dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeeze"
+        android:text="Total Cost"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeeze"
+        android:text="$1250.00"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeeze"
+        android:text="Gallery"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeeze"
+        android:text="$1690.99"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:background="@drawable/rounded_button1"
+        android:text="Payment"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="642dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shop"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/trid"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
